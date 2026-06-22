@@ -1,6 +1,5 @@
 ###########################################################################
 #Task2.py - Affine Cipher Brute-Force Attack
-#ISEC2000 - Assignment 1, Part 1
 #
 #Overview:
 # This program performs a brute-force attack on an Affine cipher by testing all 312 possible key pairs where gcd(a,26)=1. 
@@ -13,7 +12,7 @@
 #  - Outputs top 15 candidates ranked by English likeness
 #  - Proves whether the ciphertext was encrypted with an Affine cipher
 #
-#Author: Nazriel Al-Hafidz | 21495959
+#Author: Nazriel Al-Hafidz
 ###########################################################################
 import sys
 from collections import Counter
